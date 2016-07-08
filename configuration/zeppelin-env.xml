@@ -26,6 +26,9 @@
     <description>Dir containing process ID file</description>
   </property>
 
+<!--
+we can try spark user sparkusr here
+-->
   <property>
     <name>zeppelin_user</name>
     <value>zeppelin</value>
@@ -33,6 +36,9 @@
     <description>User zeppelin daemon runs as</description>
   </property> 
         
+<!--
+we can try spark group hadoop here
+-->
   <property>
     <name>zeppelin_group</name>
     <value>zeppelin</value>
